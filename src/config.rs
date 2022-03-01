@@ -19,14 +19,14 @@ pub struct Origin {
 /// the backend_name.
 pub(crate) const EU_ORIGIN: Origin = Origin {
     backend_name: "eu_origin",
-    bucket_name: "YOUR-EU-BUCKET",
-    bucket_host: "YOUR-EU-ENDPOINT",
+    bucket_name: "fastly-demo-eu",
+    bucket_host: "s3.eu-central-003.backblazeb2.com",
 };
 
 pub(crate) const US_ORIGIN: Origin = Origin {
     backend_name: "us_origin",
-    bucket_name: "YOUR-US-BUCKET",
-    bucket_host: "YOUR-US-ENDPOINT",
+    bucket_name: "fastly-demo-us",
+    bucket_host: "s3.us-west-004.backblazeb2.com",
 };
 
 lazy_static! {
